@@ -1,82 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-	<script src="jsencrypt.min.js">
-	</script>
-	<script src="cryptojs.js">
-	</script>
-	<script src="sweetalert.js">
-	</script>
-	<script src="main.js">
-	</script>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>RSAtools</title>
-</head>
+<head></head>
 
 <body>
-	<div class="" id="banner">
-		<div>
-			Loadin.......
-		</div>
-	</div>
-	<header>
-		<div>RSAtools by KUET CSE</div>
-	</header>
-	<section>
-		<form onsubmit="generate(this.parent)" type="POST" action="javascript:" id="generator">
-			<article>
-				<legend> Trusted User 1</legend>
-				<input name="user1" required pattern="^[a-z]{3,32}$" placeholder="Nickname">
-				<input name="pass1" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,128}$"
-					type="password" placeholder="Password">
-				<input name="pass1v" required type="password" placeholder="Re-enter password">
-			</article>
-			<article>
-				<legend>Trusted User 2</legend>
-				<input name="user2" required pattern="^[a-z]{3,32}$" placeholder="Nickname">
-				<input name="pass2" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,128}$"
-					type="password" placeholder="Password">
-				<input name="pass2v" required type="password" placeholder="Re-enter password">
-			</article>
-			<input type="submit" id="generate-btn" value="Generate">
-		</form>
-	</section>
-	<section>
-		<form onsubmit="test(this)" type="post" action="javascript:" id="test">
-			<legend> Private Key </legend>
-			<input type="file" required name="privk">
-			<legend> Public Key </legend>
-			<input type="file" required name="pubk">
-			<input type="password" required name="pass" placeholder="Password">
-			<br>
-			<input type="submit" value="Test">
-		</form>
-	</section>
-	<section>
-		<form id="decrypt" method="POST" action="javascript:" onsubmit="decrypt(this)">
-			<legend> Private Key </legend>
-			<input type="file" name="privk">
-			<input type="password" name="pass" placeholder="Password">
-			<textarea name="content"></textarea>
-			<br>
-			<input type="submit" value="decrypt">
-			<textarea id="" onclick="copy(this)" name="contentD" readonly></textarea>
-		</form>
-	</section>
-	<section>
-		<form id="encrypt" method="post" action="javascript:" onsubmit="encrypt(this)">
-			<legend> Public Key </legend>
-			<input type="file" name="pubk">
-			<textarea name="content"></textarea>
-			<br>
-			<input type="submit" value="encrypt">
-			<textarea onclick="copy(this)" name="contentE" readonly></textarea>
-		</form>
-	</section>
+	This page is not ready.
+	Redirecting to RSAtools
+	<script>setTimeout(() => window.location = './rsatools', 2000)</script>
 </body>
 
 </html>
