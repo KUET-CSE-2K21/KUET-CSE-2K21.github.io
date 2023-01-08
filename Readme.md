@@ -1,5 +1,2 @@
-# RSATools
-A tool for decrypting data (protidhoni)
-> The private and public keys are not standard key files
-> the public one is base64 encoded
-> private one is encrypted and base64 encoded
+# KUET-CSE-2K21
+> [Github page](https://KUET-CSE-2K21.github.io)

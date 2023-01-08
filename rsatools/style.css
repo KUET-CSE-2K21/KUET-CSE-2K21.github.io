@@ -105,9 +105,9 @@ section {
   margin-left: 10px;
   margin-bottom: 20px;
   float: left;
-  width: 300px;
-  min-height: 380px;
-  padding: 10px;
+  width: 290px;
+  min-height: 490px;
+  padding: 1%;
   border-radius: 5px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 
@@ -120,7 +120,7 @@ input {
   height: 30px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 3px
+  padding: .5%
 }
 
 input:focus {
@@ -139,4 +139,32 @@ input:focus {
 
 article {
   margin-top: 10px
+}
+
+@media only screen and (max-width: 700px) {
+  section {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+}
+
+@media only screen and (min-width:700px) and (max-width:1100px) {
+  section {
+    width: 45%;
+    margin-left: 1.5%
+  }
+}
+
+@media only screen and (min-width:700px) and (max-width:1100px) {
+  section {
+    width: 45%;
+    margin-left: 1.5%
+  }
+}
+
+@media only screen and (min-width:1100px) and (max-width:1300px) {
+  section {
+    width: 29%;
+    margin-left: 1.7%
+  }
 }
