@@ -106,7 +106,7 @@ section {
   margin-bottom: 20px;
   float: left;
   width: 290px;
-  min-height: 490px;
+  min-height: 390px;
   padding: 1%;
   border-radius: 5px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
@@ -162,9 +162,16 @@ article {
   }
 }
 
-@media only screen and (min-width:1100px) and (max-width:1300px) {
+@media only screen and (min-width:1100px) and (max-width:1250px) {
   section {
     width: 29%;
     margin-left: 1.7%
+  }
+}
+
+@media only screen and (min-width:1251px) {
+  section {
+    width: 21.75%;
+    margin-left: 1%
   }
 }
