@@ -1,0 +1,11 @@
+{
+  "name": "rsatools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "firefox ./index.html &"
+  },
+  "author": "tasmirz",
+  "license": "AGPL-3.0-or-later"
+}
